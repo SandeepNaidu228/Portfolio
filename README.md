@@ -172,7 +172,7 @@ The portfolio is fully responsive and optimized for:
 
 - **Email**: mvnsandeepsandeep@gmail.com
 - **Location**: Chennai, Tamil Nadu, India
-- **GitHub**: [Your GitHub Profile]
+- **GitHub**: https://github.com/SandeepNaidu228
 
 ## 📄 License
 
