@@ -11,9 +11,7 @@
     "forceConsistentCasingInFileNames": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-
-    // ✅ Add these two lines below
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
       "@/*": ["src/*"]
     }
