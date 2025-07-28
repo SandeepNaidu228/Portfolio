@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 import path from "path";
 
 export default defineConfig({
-  base: "/Portfolio/", // Use this only if deploying to GitHub Pages. Remove it for Vercel.
+  base: "/Portfolio/", // Only for GitHub Pages; remove for Vercel
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
