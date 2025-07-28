@@ -11,9 +11,9 @@
     "forceConsistentCasingInFileNames": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "baseUrl": "./",
+    "baseUrl": ".",                                 // 👈 Required for aliasing
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["src/*"]                              // 👈 This resolves @ to your src folder
     }
   },
   "include": ["src"]
