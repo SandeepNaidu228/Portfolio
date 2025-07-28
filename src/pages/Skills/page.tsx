@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { useTheme } from "@/provider/page";
-// import { Marquee } from "@/components/magicui/marquee";
+import { Marquee } from "@/components/magicui/marquee";
 import {
   Code2,
   Paintbrush,
