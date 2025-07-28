@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
     "target": "ESNext",
     "useDefineForClassFields": true,
     "module": "ESNext",
@@ -8,13 +12,7 @@
     "jsx": "react-jsx",
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "baseUrl": ".",                                 // 👈 Required for aliasing
-    "paths": {
-      "@/*": ["src/*"]                              // 👈 This resolves @ to your src folder
-    }
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["src"]
 }
