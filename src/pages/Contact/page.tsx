@@ -116,11 +116,7 @@ export default function Contact() {
 
   return (
     <main
-      className={`min-h-screen flex items-center justify-center ${
-        isDarkMode
-          ? "bg-gradient-to-b from-black via-black to-black text-white"
-          : "bg-gradient-to-r from-[#f0f4f8] via-[#e2e8f0] to-[#cbd5e1] text-gray-900"
-      }`}
+      className={`min-h-screen flex items-center justify-center bg-black text-white`}
     >
       <section className="w-full py-8 px-4 sm:px-6 lg:px-8 flex items-center">
         <div className="container mx-auto">

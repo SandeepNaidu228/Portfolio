@@ -61,6 +61,14 @@ export default function ProfessionalJourney() {
             },
           }}
         >
+
+          <ExperienceCard
+            title="Angular Full Stack Intern"
+            company="Infosys Springboard"
+            period="Present"
+            description="Currently working as a Full Stack Intern focusing on Angular and real-world project implementation."
+            icon={<Briefcase />}
+          />
           <ExperienceCard
             title="Backend Intern"
             company="McCarthy"

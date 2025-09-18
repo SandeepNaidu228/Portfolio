@@ -68,7 +68,8 @@ const ProjectShowcase = () => {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="flex flex-col md:flex-row items-center group rounded-lg p-[2px] bg-gradient-to-r from-cyan-500 via-purple-500 to-emerald-500 bg-[length:400%_400%] animate-gradient-xy hover:bg-[length:100%_100%] transition-all duration-700 shadow-lg"
+            className="flex flex-col md:flex-row items-center group rounded-lg p-4 transition-all duration-700 shadow-lg"
+
           >
             {/* ✅ Project Image - Full View */}
             <div className="md:w-1/2 max-h-[400px] overflow-hidden rounded-lg flex items-center justify-center bg-white">

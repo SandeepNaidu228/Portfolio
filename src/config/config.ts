@@ -1,36 +1,39 @@
 const config = {
   information: {
     name: "M V N Sandeep Naidu",
-    helloText: "Hello",
-    welcomeText: "✨ Welcome to my universe",
-    title: "JavaScript lover 🚀 | OlovaJS creator 🔧 | Crafting frameworks",
-    title3: "and coding the future 💻 ✨",
+    helloText: "Hello 👋",
+    welcomeText: "✨ Welcome to my digital space",
+    title: "Full Stack JavaScript Developer 🚀",
+    title3: "Crafting scalable solutions & coding the future 💻✨",
   },
   flipWords: [
-    "Crafting frameworks",
-    "Frontend Web Developer",
+    "Full Stack Developer",
+    "Backend Engineer",
+    "Frontend Innovator",
     "JavaScript Enthusiast",
-    "Open Source Contributor"
+    "Problem Solver",
   ],
   codeContent: {
     code: `const profile = {
-  name: 'M V N Sandeep Naidu',
-  title: 'JavaScript Developer | Framework Architect | Web Craftsman',
+  name: "M V N Sandeep Naidu",
+  role: "Full Stack JavaScript Developer",
   skills: [
-    'JavaScript', 'Node.js', 'React', 'Express',
-    'MongoDB', 'GitHub', 'TypeScript',
-    'HTML', 'CSS', 'Git'
+    "JavaScript", "TypeScript", "Node.js", "Express", 
+    "React", "MongoDB", "MySQL",
+    "HTML", "CSS", "n8n", "GitHub"
   ],
-  hardWorker: true,
-  quickLearner: true,
-  problemSolver: true,
-  yearsOfExperience: 2,
-  hireable: function() {
+  traits: {
+    hardWorker: true,
+    quickLearner: true,
+    problemSolver: true,
+    teamPlayer: true
+  },
+  hireable() {
     return (
-      this.hardWorker &&
-      this.problemSolver &&
-      this.skills.length > 5 &&
-      this.yearsOfExperience >= 1
+      this.traits.hardWorker &&
+      this.traits.problemSolver &&
+      this.skills.length >= 8 &&
+      this.experience.years >= 1
     );
   }
 };`
